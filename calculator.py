@@ -14,15 +14,59 @@ second = input ("Enter Second Number : ")
 first = int(first)
 second = int(second)
 
+# if operator == "+":
+#   print(first + second)
+# elif operator == "-":
+#   print(first - second)
+# elif operator == "*":
+#   print(first * second)   
+# elif operator == "/":
+#   print(first // second)
+# elif operator == "%":
+#   print(first % second)  
+# else:
+#   print("Invalid Operation")
+
+
+
+#calculator using  class
+
+class cCalculator():
+  def plus(self,a,b):
+    print(a+b)
+  
+
+  def minus(self,a,b):
+    print(a-b)
+   
+
+  def increse(self,a,b):
+    print(a*b)
+   
+
+  def divide(self,a,b):
+    print(a/b)
+
+
+  def module(self,a,b):
+    print(a%b)
+  
+
+  def error():
+    print("Invalid")
+
+  
+calculator = cCalculator() 
+
 if operator == "+":
-  print(first + second)
+  calculator.plus(first,second)
 elif operator == "-":
-  print(first - second)
+  calculator.minus(first,second)
 elif operator == "*":
-  print(first * second)   
+  calculator.increse(first,second)   
 elif operator == "/":
-  print(first // second)
+  calculator.divide(first,second)
 elif operator == "%":
-  print(first % second)  
+ calculator.module(first,second)
 else:
-  print("Invalid Operation")
+  calculator.error()

@@ -10,8 +10,8 @@ name = "Farhana"
 age = 21
 
 
-name = "Akter"
-age = 22
+# name = "Akter"
+# age = 22       
 
 print(name)
 print(age)
@@ -21,7 +21,8 @@ print(age)
 # print(user_name)
 
 
-#how does python works and how much important dsa is no one can make you understand of this untill and unless
+#how does python works and how much important dsa is no one
+# can make you understand of this untill and unless
 #youre determine enough to make it happen on your own 
 
 
