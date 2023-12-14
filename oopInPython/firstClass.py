@@ -1,4 +1,6 @@
 
+#just genral idea of oop class
+
 x = 1
 print(type("Hello"))  #in console we can see what type data type it is 
 

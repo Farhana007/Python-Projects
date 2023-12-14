@@ -31,7 +31,7 @@ second = int(second)
 
 #calculator using  class
 
-class cCalculator():
+class Calculator():
   def plus(self,a,b):
     print(a+b)
   
@@ -56,7 +56,7 @@ class cCalculator():
     print("Invalid")
 
   
-calculator = cCalculator() 
+calculator = Calculator() 
 
 if operator == "+":
   calculator.plus(first,second)
